@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="info_box">
+        <div class="info_title">
+            <span>Rules</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1.You will have only <span>10 seconds</span> for each question.</div>
+            <div class="info">2.Once you select an answer, it can't be undone.</div>
+            <div class="info">3.Scores will be awarded on the basis of number of correct answer.</div>
+        </div>
+        <div class="button">
+            <button class="restart">Start Quiz</button>
+        </div>
+    </div>
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time left</div>
+                <div class="timer_sec">10</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                
+            </div>
+            <div class="option_list">
+
+            </div>
+        </section>
+        <footer>
+            <div class="total_que">
+
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+    <div class="result_box">
+        <div class="complete_text">You have completed the Quiz!</div>
+        <div class="score_text">
+
+        </div>
+        <div class="buttons">
+            <button class="retake">Retake</button>
+            <button class="quit">Exit</button>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>
